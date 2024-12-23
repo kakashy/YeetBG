@@ -1,0 +1,31 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore frontend files
+frontend/.svelte-kit/
+frontend/.bun/
+
+# Ignore backend files
+backend/.env
+backend/*.sqlite3
+backend/*.log
+
+# Ignore contents of shared/uploads/ and shared/processed/
+shared/uploads/*
+shared/processed/*
+
+# Allow the directories to exist in version control
+!shared/uploads/.gitkeep
+!shared/processed/.gitkeep
